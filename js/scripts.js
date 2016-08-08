@@ -36,8 +36,14 @@ var giveMeASentence = prompt("Enter any sentence");
 
 /////////jQUERY Section
 $(document).ready(function(){
+
+    $("p").click(function(){
+      $(".walrus-showing").toggle();
+      $(".walrus-hidden").toggle();
+    });
   $("#first").click(function(){
     alert(giveMeASentence);
+
 
   });
   $("#second").click(function(){
@@ -47,4 +53,5 @@ $(document).ready(function(){
   $("#third").click(function(){
     alert("I am coming for your first born");
   });
+
 })

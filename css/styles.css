@@ -10,6 +10,40 @@
   max-width: 300px;
   float: left;
 }
+
+#first:hover{
+  transform: rotate(-12deg);
+  opacity: .7;
+}
+
+#second:hover{
+  transform: rotate(12deg);
+  opacity: .7;
+}
+
+#third:hover{
+  transform: rotate(12deg);
+  opacity: .7;
+}
+.walrus-hidden
+{
+
+}
+.walrus-showing
+{
+    display: none;
+}
+p{
+  cursor: pointer;;
+  color:white;
+}
+p:hover{
+  text-decoration: underline;
+}
+img{
+  cursor: zoom-in;
+}
+
 body{
   background-repeat: no-repeat;
   background-image: url(../img/walrus4.jpg);

@@ -39,4 +39,15 @@ var string = cipher(giveMeASentence);
 alert(string);
 
 alert(math(string));
-alert(reverse2(math(string)));
+
+/////////jQUERY Section
+$(document).ready(function(){
+  $("#first").click(function(){
+    alert(giveMeASentence);
+
+  });
+  $("#second").click(function(){
+    alert(reverse2(math(string)));
+
+  })
+})

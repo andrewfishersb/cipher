@@ -32,13 +32,7 @@ var reverse2 = function(str){
   return ans;
 }
 
-
 var giveMeASentence = prompt("Enter any sentence");
-
-var string = cipher(giveMeASentence);
-alert(string);
-
-alert(math(string));
 
 /////////jQUERY Section
 $(document).ready(function(){
@@ -47,7 +41,10 @@ $(document).ready(function(){
 
   });
   $("#second").click(function(){
-    alert(reverse2(math(string)));
+    alert(reverse2(math(giveMeASentence)));
 
-  })
+  });
+  $("#third").click(function(){
+    alert("I am coming for your first born");
+  });
 })

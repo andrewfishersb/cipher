@@ -1,6 +1,30 @@
 #first{
- max-width: 300px;
+  max-width: 300px;
+  float: left;
 }
 #second{
   max-width: 300px;
+  float: left;
+}
+#third{
+  max-width: 300px;
+  float: left;
+}
+body{
+  background-repeat: no-repeat;
+  background-image: url(../img/walrus4.jpg);
+  background-size: cover;
+}
+.gif{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.jumbotron{
+  background-image: url(../img/walrus5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:white;
+  font-family: cursive;
 }
